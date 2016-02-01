@@ -1,6 +1,7 @@
 #web storage
 * 类似于之前的cookie，cookie却只有4K
 * web storage 拥有本地5兆的容量可以存储
+
 ###web strange
 * localstorage
 * sessionstorage
