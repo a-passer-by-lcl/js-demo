@@ -18,17 +18,17 @@
 * event.preventDefault()------------通知浏览器不要执行与事件关联的默认动作
 * event.stopPropagation()-----------不再派发事件
 
-目标事件对象
+####目标事件对象
 * event.addEventListener()----------允许在目标事件中注册监听事件(IE8 = attachEvent())
 * event.dispatchEvent()-------------允许发送事件到监听器上 (IE8 = fireEvent())
 * event.removeEventListener()-------运行一次注册在事件目标上的监听事件(IE8 = detachEvent())
 
-事件监听对象
+####事件监听对象
 * event.handleEvent()---------------把任意对象注册为事件处理程序
-文档事件对象
+####文档事件对象
 * event.createEvent()
 
-鼠标/键盘事件对象
+####鼠标/键盘事件对象
 * event.altKey----------------------返回当事件被触发时，"ALT" 键是否被按下
 * event.ctrlKey---------------------返回当事件被触发时，"CTRL" 键是否被按下
 * event.metaKey---------------------返回当事件被触发时，"meta" 键是否被按下
@@ -49,7 +49,7 @@
 * event.keyCode---------------------回onkeypress事件触发的键的值的字符代码，或者 onkeydown 或 onkeyup 事件的键的代码
 * event.which-----------------------返回onkeypress事件触发的键的值的字符代码，或者 onkeydown 或 onkeyup
 
-事件的键的代码
+####事件的键的代码
 * event.relatedTarget---------------返回与事件的目标节点相关的节点
 * event.initMouseEvent()------------初始化鼠标事件对象的值
 * event.initKeyboardEvent()---------初始化键盘事件对象的值
